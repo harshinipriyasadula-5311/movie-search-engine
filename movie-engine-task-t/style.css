@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Bad+Script&family=Cabin+Sketch&family=Cedarville+Cursive&family=Dancing+Script:wght@500&family=Finger+Paint&family=Fuggles&family=Lato:ital@1&family=MonteCarlo&family=Open+Sans&family=Pacifico&family=Passions+Conflict&family=Roboto&family=Skranji&family=Style+Script&family=The+Nautigal&family=Tilt+Neon&display=swap');
+
+#movies-wrapper{
+    width:80%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+ font-family:'Roboto',sans-serif;
+ margin-bottom: 50px;
+ text-shadow: 2px 3px 2px gray;
+ font-size: 60px;
+}
+.movie-box{
+    width: cal(25% - 30px);
+    margin: 15px;
+    border: 2px solid black;
+    text-align: center;
+}
+.movie-poster{
+    width:100%;
+    height: 250px;
+}
+#movie-name{
+    padding: 20px;
+    width: 250px;
+    font-size: 28px;
+    font-family:'Roboto',sans-serif;
+    border-radius: 30px;
+    background-color:  #ffdd5f;
+}
+#movie-name:hover{
+    background-color: white;
+}
+.div1{
+    margin: 10px auto;
+    width: 800px;
+    box-shadow: 3px 3px 3px gray;
+    /* border-radius: 20px; */
+    background-color: navy;
+    border: 2px gray solid;
+}
+button{
+    padding: 20px;
+    font-size: 28px;
+    font-family:'Roboto',sans-serif;
+    border-radius: 30px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #ffdd5f;
+}
